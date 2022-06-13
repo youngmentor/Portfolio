@@ -36,7 +36,7 @@ const Projects = () => {
             <Bottom>
               <Title>Pilot Partners</Title>
               <Description>
-                An database of Fintech companies in Nigeria
+                A database of Fintech companies in Nigeria
               </Description>
               <Aside>
                 <Tools>
