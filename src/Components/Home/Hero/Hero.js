@@ -15,7 +15,7 @@ const Hero = () => {
         </TextDiv>
 
         <ProfileImage>
-          <img src="/assets/profile4.jpg" />
+          <img src="/assets/image1.jpg" />
         </ProfileImage>
       </Wrapper>
     </Container>
@@ -27,10 +27,10 @@ export default Hero;
 const Container = styled.div`
   width: 100%;
   padding-top: 70px;
-  background-image: url("/assets/bg3.jpeg");
-  background-size: cover;
+  background: url("/assets/bg3.jpeg");
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -119,9 +119,9 @@ const ProfileImage = styled.div`
     width: 100%;
     transition: all 1.5s;
 
-    :hover {
-      transform: rotate(-360deg);
-    }
+    // :hover {
+    //   transform: rotate(-360deg);
+    // }
   }
 
   @media screen and (max-width: 768px) {
