@@ -28,7 +28,7 @@ const Container = styled.div`
   width: 100%;
   padding-top: 70px;
   background: url("/assets/bg3.jpeg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   display: flex;

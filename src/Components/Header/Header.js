@@ -22,6 +22,7 @@ export default Header;
 const Container = styled.div`
   width: 100%;
   display: flex;
+  box-sizing: border-box;
   position: fixed;
   z-index: 10;
   background-color: white;
@@ -33,7 +34,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
   width: 90%;
   height: 100%;
-
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;

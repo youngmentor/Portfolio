@@ -154,6 +154,7 @@ const Card = styled.div`
 
   @media screen and (max-width: 425px) {
     margin-bottom: 15px;
+    width: 280px;
   }
 `;
 const ProjectImage = styled.div`
