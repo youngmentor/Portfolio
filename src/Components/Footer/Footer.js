@@ -109,6 +109,7 @@ const Github = styled.img`
 const Text = styled.div`
   font-size: 15px;
   color: grey;
+  text-align: center;
 
   transition: all 350ms;
 

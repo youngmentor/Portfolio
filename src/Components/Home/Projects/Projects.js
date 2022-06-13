@@ -137,6 +137,8 @@ const Cards = styled.div`
   flex-wrap: wrap;
   @media screen and (max-width: 425px) {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 `;
 const Card = styled.div`
