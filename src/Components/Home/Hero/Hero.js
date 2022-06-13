@@ -60,7 +60,7 @@ const Overlay = styled.div`
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.9);
 `;
 const TextDiv = styled.div`
   display: flex;
@@ -100,7 +100,7 @@ const Title = styled.div`
 `;
 const Bio = styled.div`
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 25px;
   @media screen and (max-width: 768px) {
     font-size: 15px;
@@ -110,7 +110,7 @@ const Bio = styled.div`
 const ProfileImage = styled.div`
   width: 300px;
   height: 300px;
-  border: 5px solid rgb(60, 179, 113);
+  border: 3px solid rgb(60, 179, 113);
   border-radius: 100%;
   overflow: hidden;
   transition: all 1.5s;

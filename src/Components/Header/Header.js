@@ -60,6 +60,7 @@ const Button = styled.div`
   }
 
   @media screen and (max-width: 425px) {
+    padding: 8px 10px;
   }
 `;
 // const Container = styled.div``
