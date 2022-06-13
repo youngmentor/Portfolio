@@ -117,8 +117,9 @@ const Wrapper = styled.div`
   box-sizing: border-box;
   display: flex;
   align-items: center;
+
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   z-index: 5;
 `;
 
@@ -135,10 +136,12 @@ const Cards = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+
   @media screen and (max-width: 425px) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
   }
 `;
 const Card = styled.div`
@@ -155,7 +158,7 @@ const Card = styled.div`
   //   background: red;
 
   @media screen and (max-width: 425px) {
-    margin-bottom: 15px;
+    margin: 15px 0;
     width: 280px;
   }
 `;
