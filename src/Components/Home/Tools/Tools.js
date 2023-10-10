@@ -7,9 +7,9 @@ const Tools = () => {
         <Headline>What I Use</Headline>
         <Stacks>
           <Stack>
-            <Image src="/assets/node.png" />
-            <Title>NodeJS</Title>
-            <Description>A Javascript runtime environment</Description>
+            <Image src="/assets/java.png" />
+            <Title>Javascript</Title>
+            <Description>Javascript is a programming language use for building web Application</Description>
           </Stack>
           <Stack>
             <Image src="/assets/react 2.png" />
@@ -19,10 +19,10 @@ const Tools = () => {
             </Description>
           </Stack>
           <Stack>
-            <Image src="/assets/express1.png" />
-            <Title>ExpressJs</Title>
+            <Image src="/assets/Typescript.png" />
+            <Title>Typescript</Title>
             <Description>
-              A Javascript framework for building server-side apllications
+              TypeScript is a statically-typed superset of JavaScript that enhances the capabilities of JavaScript by adding static typing to the language
             </Description>
           </Stack>
           <Stack>

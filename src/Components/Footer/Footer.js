@@ -2,6 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 const Footer = () => {
+  const currentDate = new Date();
+
+  // Get the current year from the date
+  const currentYear = currentDate.getFullYear();
   return (
     <Container>
       <Wrapper>
@@ -23,7 +27,7 @@ const Footer = () => {
             <Whatsapp src="/assets/whatsapp-logo1.png" />
           </a>
         </Logos>
-        <Text>&copy; 2022. Nelson Elaye - A Software Engineer</Text>
+        <Text>&copy;. {currentYear}  Suliton Olalere - A Software Engineer</Text>
       </Wrapper>
     </Container>
   );

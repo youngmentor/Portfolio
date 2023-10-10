@@ -15,7 +15,7 @@ const Hero = () => {
         </TextDiv>
 
         <ProfileImage>
-          <img src="/assets/image1.jpg" />
+          <img src="/assets/myImage.jpeg" />
         </ProfileImage>
       </Wrapper>
     </Container>
@@ -110,7 +110,7 @@ const Bio = styled.div`
 const ProfileImage = styled.div`
   width: 300px;
   height: 300px;
-  border: 3px solid rgb(60, 179, 113);
+  /* border: 3px solid rgb(60, 179, 113); */
   border-radius: 100%;
   overflow: hidden;
   transition: all 1.5s;

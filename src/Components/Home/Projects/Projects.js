@@ -10,7 +10,6 @@ const Projects = () => {
             <ProjectImage>
               <img src="/assets/notely.jpg" />
             </ProjectImage>
-
             <Bottom>
               <Title>Notely</Title>
               <Description>
@@ -177,8 +176,7 @@ object-fit: cover;
 
   transition: all 1.5s;
 
-  
-`;
+  `;
 
 const Bottom = styled.div`
   width: 100%;
@@ -226,7 +224,7 @@ const View = styled.div`
   color: var(--green);
   font-weight: 500;
   cursor: pointer;
-  margin-left; 10px;
+  margin-left: 10px;
   transition: all 350ms;
   :hover {
     color: grey;

@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <Container>
       <Wrapper>
-        <Logo>Nelson Elaye</Logo>
+        <Logo>Suliton Olalere</Logo>
         <a
           href="https://wa.me/message/CED24IACMYNVB1"
           target="_blank"
