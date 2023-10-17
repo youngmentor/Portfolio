@@ -19,7 +19,7 @@ const Tools = () => {
             </Description>
           </Stack>
           <Stack>
-            <Image src="/assets/C.png" />
+            <Image src="/assets/c.png" />
             <Title>C#</Title>
             <Description>
               A Javascript frontend library for building complex UIs
