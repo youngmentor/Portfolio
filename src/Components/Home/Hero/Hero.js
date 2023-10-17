@@ -55,11 +55,9 @@ const Button = styled.div`
   transition: all 350ms;
   margin-top: 20px;
   background-color: white;
-  /* :hover {
-    background-color: white;
-    color: var(--green);
-    border: 2.5px solid black;
-  } */
+  @media screen and (max-width: 768px) {
+    width: 100px;
+  }
 `
 const Button1 = styled.div`
   width: 150px;
@@ -76,6 +74,9 @@ const Button1 = styled.div`
   transition: all 350ms;
   margin-top: 20px;
   cursor: pointer;
+  @media screen and (max-width: 768px) {
+    width: 150px;
+  }
 `
 const Container = styled.div`
   width: 100%;
