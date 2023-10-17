@@ -77,6 +77,11 @@ const Button1 = styled.div`
   @media screen and (max-width: 768px) {
     width: 150px;
   }
+  @media screen and (max-width: 425px) {
+    width: 100px;
+    font-size: 12px;
+    height: 18px;
+  }
 `
 const Container = styled.div`
   width: 100%;
