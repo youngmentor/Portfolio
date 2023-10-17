@@ -34,7 +34,7 @@ const Tools = () => {
           </Stack>
           <Stack>
             <Image src="/assets/node.png" />
-            <Title>Node</Title>
+            <Title>Node Js</Title>
             <Description>
               Node is runtime enviroment for javaScript 
             </Description>
@@ -42,13 +42,13 @@ const Tools = () => {
           <Stack>
             <Image src="/assets/mysql.png" />
             <Title>MySQL</Title>
-            <Description>A State-Management library for ReactJs</Description>
+            <Description>A Relational database management platform</Description>
           </Stack>
           <Stack>
             <Image src="/assets/git.png" />
             <Title>Git</Title>
             <Description>
-              A software tool for designing top-notch web products and platform
+              A software tool for Version control
             </Description>
           </Stack>
           <Stack>
@@ -65,7 +65,7 @@ const Tools = () => {
             <Image src="/assets/micro.png" />
             <Title>Microsoft Office</Title>
             <Description>
-              A software tool for designing top-notch web products and platform
+            Microsoft office is the ultimate everyday productivity app that helps you create, edit, and share on the go. With Word, Excel, and PowerPoint all in one
             </Description>
           </Stack>
           <Stack>
