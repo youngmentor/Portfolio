@@ -12,23 +12,44 @@ const Tools = () => {
             <Description>Javascript is a programming language use for building web Application</Description>
           </Stack>
           <Stack>
-            <Image src="/assets/react 2.png" />
-            <Title>ReactJS</Title>
+            <Image src="/assets/html.png" />
+            <Title>HTML</Title>
             <Description>
               A Javascript frontend library for building complex UIs
             </Description>
           </Stack>
           <Stack>
-            <Image src="/assets/Typescript.png" />
-            <Title>Typescript</Title>
+            <Image src="/assets/C.png" />
+            <Title>C#</Title>
             <Description>
-              TypeScript is a statically-typed superset of JavaScript that enhances the capabilities of JavaScript by adding static typing to the language
+              A Javascript frontend library for building complex UIs
             </Description>
           </Stack>
           <Stack>
-            <Image src="/assets/redux.png" />
-            <Title>Redux</Title>
+            <Image src="/assets/css.png" />
+            <Title>CSS</Title>
+            <Description>
+              A Javascript frontend library for building complex UIs
+            </Description>
+          </Stack>
+          <Stack>
+            <Image src="/assets/node.png" />
+            <Title>Node</Title>
+            <Description>
+              Node is runtime enviroment for javaScript 
+            </Description>
+          </Stack>
+          <Stack>
+            <Image src="/assets/mysql.png" />
+            <Title>MySQL</Title>
             <Description>A State-Management library for ReactJs</Description>
+          </Stack>
+          <Stack>
+            <Image src="/assets/git.png" />
+            <Title>Git</Title>
+            <Description>
+              A software tool for designing top-notch web products and platform
+            </Description>
           </Stack>
           <Stack>
             <Image src="/assets/postman.png" />
@@ -41,10 +62,17 @@ const Tools = () => {
             <Description>A cloud database management platform</Description>
           </Stack>
           <Stack>
-            <Image src="/assets/figma.jpeg" />
-            <Title>Figma</Title>
+            <Image src="/assets/micro.png" />
+            <Title>Microsoft Office</Title>
             <Description>
               A software tool for designing top-notch web products and platform
+            </Description>
+          </Stack>
+          <Stack>
+            <Image src="/assets/express1.png" />
+            <Title>Express</Title>
+            <Description>
+              A Node js frame work use for building server side web application
             </Description>
           </Stack>
         </Stacks>

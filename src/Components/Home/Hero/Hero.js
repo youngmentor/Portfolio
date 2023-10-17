@@ -7,15 +7,28 @@ const Hero = () => {
       <Wrapper>
         <TextDiv>
           <Hello>Hello!</Hello>
-          <Title>I'm a Fullstack Developer/Software Engineer</Title>
+          <Title>I'm a Joshua Aninku</Title>
           <Bio>
-            I use my tech super-powers and critical thinking ability to build
-            software solutions and help businesses bring their idea to life.
+            A Backend Developer with a proven track record of developing efficient and secure web applications. Extensive knowledge of programming  languages  to create robust software solutions. Adept at troubleshooting and debugging applications to ensure optimal performance
           </Bio>
+          <ButtonDiv>
+            <a
+              href="https://wa.me/8143192174"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+            >
+              <Button>Let's chat</Button>
+            </a>
+            <a href="./assets/Resume.pdf" download="Resume" style={{ textDecoration: 'none' }}>
+              <Button1>
+                Download Resume
+              </Button1>
+            </a>
+          </ButtonDiv>
         </TextDiv>
 
         <ProfileImage>
-          <img src="/assets/myImage.jpeg" />
+          <img src="/assets/A.jpeg" />
         </ProfileImage>
       </Wrapper>
     </Container>
@@ -23,7 +36,47 @@ const Hero = () => {
 };
 
 export default Hero;
-
+const ButtonDiv = styled.div`
+  display: flex;
+  gap: 10px;
+`
+const Button = styled.div`
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: var(--green);
+  font-size: 15px;
+  /* border: 2.5px solid rgb(60, 179, 113); */
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: all 350ms;
+  margin-top: 20px;
+  background-color: white;
+  /* :hover {
+    background-color: white;
+    color: var(--green);
+    border: 2.5px solid black;
+  } */
+`
+const Button1 = styled.div`
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: var(--green);
+  font-size: 15px;
+  border: 1px solid rgb(60, 179, 113);
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: all 350ms;
+  margin-top: 20px;
+  cursor: pointer;
+`
 const Container = styled.div`
   width: 100%;
   padding-top: 70px;
@@ -82,9 +135,9 @@ const Hello = styled.div`
   background-color: white;
   color: black;
   padding: 8px 10px;
-  font-weight: 600;
+  font-weight:800;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 24px;
   margin-bottom: 15px;
   @media screen and (max-width: 768px) {
     font-size: 18px;
@@ -93,7 +146,7 @@ const Hello = styled.div`
 const Title = styled.div`
   font-size: 30px;
   margin-bottom: 15px;
-  font-weight: 600;
+  font-weight: 800;
   @media screen and (max-width: 768px) {
     font-size: 25px;
   }

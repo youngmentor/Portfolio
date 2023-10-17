@@ -4,9 +4,9 @@ const Header = () => {
   return (
     <Container>
       <Wrapper>
-        <Logo>Suliton Olalere</Logo>
+        <Logo>Dev Joshua.</Logo>
         <a
-          href="https://wa.me/message/CED24IACMYNVB1"
+          href="https://wa.me/8143192174"
           target="_blank"
           style={{ textDecoration: "none" }}
         >

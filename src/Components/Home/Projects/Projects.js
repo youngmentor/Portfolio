@@ -6,87 +6,66 @@ const Projects = () => {
       <Wrapper>
         <Headline>What I've Built</Headline>
         <Cards>
-          <Card style={{ display: "none" }}>
-            <ProjectImage>
-              <img src="/assets/notely.jpg" />
-            </ProjectImage>
-            <Bottom>
-              <Title>Notely</Title>
-              <Description>
-                Never forget a thing. Store important notes anytime, access them
-                anywhere.
-              </Description>
-              <Aside>
-                <Tools>
-                  <Tool>ReactJS</Tool>
-                  <Tool>NodeJS</Tool>
-                  <Tool>ExpressJS</Tool>
-                  <Tool>MongoDB</Tool>
-                </Tools>
-                <View>View More </View>
-              </Aside>
-            </Bottom>
-          </Card>
           <Card>
             <ProjectImage>
-              <img src="/assets/pilot.jpg" />
+              <img src="/assets/health360.png" />
             </ProjectImage>
-
             <Bottom>
-              <Title>Pilot Partners</Title>
+              <Title>Health 360</Title>
               <Description>
-                A database of Fintech companies in Nigeria
+                Health360 is a healthcare solution aimed
+                at providing all round quality healthcare
+                through an app
               </Description>
               <Aside>
                 <Tools>
-                  <Tool>ReactJS</Tool>
-                  <Tool>Redux</Tool>
                   <Tool>NodeJS</Tool>
                   <Tool>ExpressJS</Tool>
                   <Tool>MongoDB</Tool>
                 </Tools>
-                <a href="https://pilotpartners-app.web.app/" target="_blank">
+                <a href="https://health-360-app.vercel.app/" target="_blank">
                   <View>View More </View>
                 </a>
               </Aside>
             </Bottom>
           </Card>
-          <Card style={{ display: "none" }}>
+          <Card>
             <ProjectImage>
-              <img src="/assets/youtube.jpg" />
+              <img src="/assets/Exquisite.jpeg" />
             </ProjectImage>
-
             <Bottom>
-              <Title>Youtube Clone</Title>
-              <Description>A clone of youtube platform</Description>
+              <Title>Exquisite-Clinic</Title>
+              <Description>
+                An Hospital record keeper that helps keep record of patient data
+              </Description>
               <Aside>
                 <Tools>
-                  <Tool>ReactJS</Tool>
                   <Tool>NodeJS</Tool>
                   <Tool>ExpressJS</Tool>
+                  <Tool>MongoDB</Tool>
                 </Tools>
-                <View>View More </View>
+                <a href="https://exquisite-physioteraphy-clinic.onrender.com" target="_blank">
+                  <View>View More </View>
+                </a>
               </Aside>
             </Bottom>
           </Card>
           <Card>
             <ProjectImage>
-              <img src="/assets/uquote.jpg" />
+              <img src="/assets/API.png" />
             </ProjectImage>
-
             <Bottom>
-              <Title>Uquote</Title>
+              <Title>Festac Api</Title>
               <Description>
-                An application for saving your favorite quotes.
+              Its an application used for creating a responsive blog ,that allows users to create ,edit and delete post
               </Description>
               <Aside>
                 <Tools>
-                  <Tool>ReactJS</Tool>
                   <Tool>NodeJS</Tool>
                   <Tool>ExpressJS</Tool>
                   <Tool>MongoDB</Tool>
                 </Tools>
-                <a href="https://uquote.netlify.app" target="_blank">
+                <a href="https://festacapi.onrender.com" target="_blank">
                   <View>View More </View>
                 </a>
               </Aside>

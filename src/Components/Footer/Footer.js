@@ -10,24 +10,24 @@ const Footer = () => {
     <Container>
       <Wrapper>
         <Logos>
-          <a href="https://www.linkedin.com/in/elayenelson/" target="_blank">
+          <a href="https://www.linkedin.com/in/aninku-oluwatimilehin-569202232" target="_blank">
             <Linkedin src="/assets/linkedin-logo1.png" />
           </a>
-          <a href="https://github.com/nelsonelaye" target="_blank">
+          <a href="https://github.com/aninkud2" target="_blank">
             <Github src="/assets/git.png" />
           </a>
 
           <a
-            href="https://web.facebook.com/nelson.micheal.14224"
+            href="https://web.facebook.com/aninkut?mibextid=ZbWKwL"
             target="_blank"
           >
             <Facebook src="/assets/facebook-logo1.png" />
           </a>
-          <a href="https://wa.me/message/CED24IACMYNVB1" target="_blank">
-            <Whatsapp src="/assets/whatsapp-logo1.png" />
-          </a>
+          {/* <a href="https://wa.me/message/CED24IACMYNVB1" target="_blank">
+            <Whatsapp src="/assets/twitter.png" />
+          </a> */}
         </Logos>
-        <Text>&copy;. {currentYear}  Suliton Olalere - A Software Engineer</Text>
+        <Text>&copy;. {currentYear}  Joshua Aninku - A Software Engineer</Text>
       </Wrapper>
     </Container>
   );
