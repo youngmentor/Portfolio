@@ -7,9 +7,9 @@ const Hero = () => {
       <Wrapper>
         <TextDiv>
           <Hello>Hello!</Hello>
-          <Title>I'm a Joshua Aninku</Title>
+          <Title>I'm Joshua Aninku</Title>
           <Bio>
-            A Backend Developer with a proven track record of developing efficient and secure web applications. Extensive knowledge of programming  languages  to create robust software solutions. Adept at troubleshooting and debugging applications to ensure optimal performance
+            A Backend Developer with proven track record of developing efficient and secure web applications. Extensive knowledge of programming  languages  to create robust software solutions. Adept at troubleshooting and debugging applications to ensure optimal performance
           </Bio>
           <ButtonDiv>
             <a
