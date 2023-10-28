@@ -15,15 +15,15 @@ const Tools = () => {
             <Image src="/assets/html.png" />
             <Title>HTML</Title>
             <Description>
-              HTML (Hypertext Markup Language) is the standard markup language used to create web pages. It's a fundamental technology for building websites and web applications. Here are some key aspects of HTML:
+              HTML (Hypertext Markup Language) is the standard markup language used to create web pages.
             </Description>
           </Stack>
           <Stack>
             <Image src="/assets/c.png" />
             <Title>C#</Title>
             <Description>
-              C#  is a programming language developed by Microsoft that runs on the .NET Framework.
-              C# is used to develop web apps, desktop apps, mobile apps, games and much more.
+              C#  is a programming language developed by Microsoft that runs on the .NET Framework,
+              it is used to develop web apps, desktop apps, mobile apps, games and much more.
             </Description>
           </Stack>
           <Stack>
