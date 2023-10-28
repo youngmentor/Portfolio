@@ -15,28 +15,30 @@ const Tools = () => {
             <Image src="/assets/html.png" />
             <Title>HTML</Title>
             <Description>
-              A Javascript frontend library for building complex UIs
+              HTML (Hypertext Markup Language) is the standard markup language used to create web pages. It's a fundamental technology for building websites and web applications. Here are some key aspects of HTML:
             </Description>
           </Stack>
           <Stack>
             <Image src="/assets/c.png" />
             <Title>C#</Title>
             <Description>
-              A Javascript frontend library for building complex UIs
+              C#  is a programming language developed by Microsoft that runs on the .NET Framework.
+              C# is used to develop web apps, desktop apps, mobile apps, games and much more.
             </Description>
           </Stack>
           <Stack>
             <Image src="/assets/css.png" />
             <Title>CSS</Title>
             <Description>
-              A Javascript frontend library for building complex UIs
+
+              Certainly! CSS (Cascading Style Sheets) is a styling language used to control the presentation and layout of web documents, including HTML documents.
             </Description>
           </Stack>
           <Stack>
             <Image src="/assets/node.png" />
             <Title>Node Js</Title>
             <Description>
-              Node is runtime enviroment for javaScript 
+              Node is runtime enviroment for javaScript
             </Description>
           </Stack>
           <Stack>
@@ -65,7 +67,7 @@ const Tools = () => {
             <Image src="/assets/micro.png" />
             <Title>Microsoft Office</Title>
             <Description>
-            Microsoft office is the ultimate everyday productivity app that helps you create, edit, and share on the go. With Word, Excel, and PowerPoint all in one
+              Microsoft office is the ultimate everyday productivity app that helps you create, edit, and share on the go. With Word, Excel, and PowerPoint all in one
             </Description>
           </Stack>
           <Stack>
